@@ -12,7 +12,7 @@ libmatr.so: matr.o
 
 #make the matr.o ELF (compile only). Position-independent code is required:
 matr.o: matr.c
-	gcc -c -fPIC main.c
+	gcc -c -fPIC matr.c
 
 #clean build
 clean:

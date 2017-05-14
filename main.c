@@ -8,6 +8,7 @@ void read_matr(double **m, int n)
 
 int main()
 {
+	int n;
 	double **a;
 	double **b;
 /* main for tests: alloc mem for 2 square matrices and read them from stdin, then run 'matr()' */

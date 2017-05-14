@@ -1,1 +1,1 @@
-void matr(int **a, int **b);
+void matr(double **a, double **b, int i);
